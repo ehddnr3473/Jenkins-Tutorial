@@ -4,8 +4,7 @@ pipeline {
 	stages {
 		stage('build') {
 			steps {
-				echo '빌드 중'
-				bat 'gradlew build'
+				echo 'Start build'
 			}
 		}
 	}
